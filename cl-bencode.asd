@@ -6,5 +6,6 @@
   :license "Specify license here"
   :serial t
   :components ((:file "package")
-               (:file "cl-bencode")))
+               (:file "cl-bencode"))
+  :depends-on (:flexi-streams))
 
