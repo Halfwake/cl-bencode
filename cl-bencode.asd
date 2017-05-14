@@ -7,5 +7,5 @@
   :serial t
   :components ((:file "package")
                (:file "cl-bencode"))
-  :depends-on (:flexi-streams))
+  :depends-on (:flexi-streams :lisp-unit))
 

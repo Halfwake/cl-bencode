@@ -7,3 +7,5 @@
 		:read-byte)
   (:export :parse))
 
+(defpackage #:cl-bencode-tests
+  (:use #:cl #:cl-bencode #:lisp-unit))

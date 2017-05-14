@@ -84,4 +84,4 @@
 	 (parse-bencode-dictionary stream))))
 
 (defun parse (stream)
-  (parse-iter stream))
+  (parse-iter (flexi-streams:make-flexi-stream stream :external-format :latin-1 :element-type 'flexi-streams:octet)))
